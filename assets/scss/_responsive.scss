@@ -325,23 +325,23 @@
     }
 
     .cards-section{
-        padding: 60px 0;
+        padding: 30px 20px;
         .section-content .section-cards{
             margin-top: 100px;
 
             .row{
-                column-gap: 36px;
+                column-gap: 10px;
             }
             .section-card-con{
-                width: calc(33.33% - 24px);
+                width: calc(50% - 5px);
 
                 &._1,&._3{
-                    margin-top: 64px;
+                    margin-top: 0;
                 }
                 .section-card{
-                    border-radius: 24px;
-                    height: 372px;
-                    margin-bottom: 36px;
+                    border-radius: 16px;
+                    height: 354px;
+                    margin-bottom: 10px;
                     &::before{
                         height: 12px;
                         border-radius: 0 0 15px 15px;
@@ -351,6 +351,24 @@
                         h3{
                             font-size: 16px;
                             line-height: 20px;
+                        }
+                    }
+                }
+                &._3{
+                    width: 100%;
+                    display: flex;
+                    column-gap: 10px;
+                    flex-wrap: wrap;
+                    .section-card{
+                        width: calc(50% - 5px);
+                        &._mobile-card{
+                            background: transparent;
+                            box-shadow: none;
+                            align-items: center;
+                            justify-content: center;
+                            &::before{
+                                display: none;
+                            }
                         }
                     }
                 }
