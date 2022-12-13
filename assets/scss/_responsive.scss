@@ -1,0 +1,384 @@
+@media (max-width: 1024px){
+    h1{
+        font-size: 70px;
+        line-height: 1.2;
+    }
+    h2{
+        font-size: 38px;
+        line-height: 45px;
+    }
+    p{
+        &.primary{
+            font-size: 18px;
+            line-height: 34px;
+        }
+        &.secondary{
+            font-size: 12px;
+            line-height: 16px;
+        }
+    }
+    .button-primary{
+        height: 61px;
+        padding: 0 40px;
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .header-section{
+        header{
+            height: 600px;
+            padding: 36px;
+            background-position: top;
+            nav{
+                width: calc(100% - 72px);
+                .site-logo{
+                    width: 140px;
+                }
+                .social-icon{
+                    width: 24px;
+                    height: 24px;
+                }
+            }
+
+        }
+    }
+    .about-section{
+        padding: 65px 0 10px;
+        .section-container{
+            padding: 0 60px;
+        }
+        .section-content .section-video{
+            height: 430px;
+            width: 100%;
+            margin: auto;
+            margin-top: 55px;
+        }
+    }
+
+    .app-section {
+        padding: 60px 0;
+        .section-content {
+            .section-text{
+                p{
+                    font-size: 18px;
+                    line-height: 21px;
+                }
+                h3{
+                    font-size: 24px;
+                    line-height: 28px;
+                }
+            } 
+        }
+    }
+
+    .cards-section{
+        padding: 60px 0;
+        .section-content .section-cards{
+            margin-top: 100px;
+
+            .row{
+                column-gap: 42px;
+            }
+            .section-card-con{
+                width: calc(33.33% - 28px);
+
+                &._1,&._3{
+                    margin-top: 70px;
+                }
+                .section-card{
+                    border-radius: 26px;
+                    height: 446px;
+                    margin-bottom: 42px;
+                    &::before{
+                        height: 14px;
+                        border-radius: 0 0 17px 17px;
+                    }
+                    .card-text{
+                        padding: 15px;
+                        h3{
+                            font-size: 16px;
+                            line-height: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+    footer{
+        background: $bgLightClr;
+        .section-content{
+            h3{
+                font-size: 20px;
+                line-height: 24px;
+            }
+            .app-dnld-btns{
+                margin-bottom: 100px;
+                .app-dnld-btn{
+                    width: 170px;
+                }
+            }
+            .copyrights{
+                padding: 16px 0;
+                a{
+                    font-size: 16px;
+                    font-weight: 20px;
+                }
+            }
+        }
+    }
+}
+@media (max-width:992px){
+    p{
+        &.primary{
+            font-size: 16px;
+            line-height: 30px;
+        }
+        &.secondary{
+            font-size: 10px;
+            line-height: 13px;
+        }
+    }
+    .button-primary{
+        height: 61px;
+        padding: 0 40px;
+        font-size: 18px;
+        line-height: 24px;
+        &:hover{
+            color: $primaryTextClr;
+        }
+    }
+    .header-section{
+        header{
+            height: 700px;
+            padding: 36px;
+            background-position: top;
+            background: url(../img/2_HeaderTablet_Vertical_703X687_RG.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            nav{
+                width: calc(100% - 72px);
+                .site-logo{
+                    width: 140px;
+                }
+                .social-icon{
+                    width: 24px;
+                    height: 24px;
+                }
+            }
+
+        }
+    }
+    .about-section{
+        padding: 55px 0 10px;
+        
+        .section-container{
+            padding:  40px;
+        }
+        .section-content .section-video{
+            height: 317px;
+            margin-top: 55px;
+        }
+    }
+
+    .app-section {
+        padding: 60px 0;
+        .section-content {
+            .section-text{
+                p{
+                    font-size: 18px;
+                    line-height: 21px;
+                }
+                h3{
+                    font-size: 24px;
+                    line-height: 28px;
+                }
+            } 
+        }
+    }
+
+    .cards-section{
+        padding: 60px 0;
+        .section-content .section-cards{
+            margin-top: 100px;
+
+            .row{
+                column-gap: 36px;
+            }
+            .section-card-con{
+                width: calc(33.33% - 24px);
+
+                &._1,&._3{
+                    margin-top: 64px;
+                }
+                .section-card{
+                    border-radius: 24px;
+                    height: 372px;
+                    margin-bottom: 36px;
+                    &::before{
+                        height: 12px;
+                        border-radius: 0 0 15px 15px;
+                    }
+                    .card-text{
+                        padding: 15px 12px;
+                        h3{
+                            font-size: 16px;
+                            line-height: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+    footer{
+        background: $bgLightClr;
+        .section-content{
+            h3{
+                font-size: 20px;
+                line-height: 24px;
+            }
+            .app-dnld-btns{
+                margin-bottom: 100px;
+                .app-dnld-btn{
+                    width: 130px;
+                }
+            }
+            .copyrights{
+                padding: 14px 0;
+                a{
+                    font-size: 14px;
+                    font-weight: 18px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:482px){
+    h1{
+        font-size: 50px;
+        line-height: 60px;
+    }
+    p{
+        &.primary{
+            font-size: 12px;
+            line-height: 23px;
+        }
+        &.secondary{
+            font-size: 10px;
+            line-height: 13px;
+        }
+    }
+    .button-primary{
+        height: 61px;
+        padding: 0 40px;
+        font-size: 18px;
+        line-height: 24px;
+        &:hover{
+            color: $primaryTextClr;
+        }
+    }
+    .header-section{
+        header{
+            height: 560px;
+            padding: 36px;
+            background-position: top;
+            background: url(../img/4_HeaderMobile_414X560_RGB.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+
+
+        }
+    }
+    .about-section{
+        padding: 55px 0 10px;
+        
+        .section-container{
+            padding: 0 20px;
+        }
+        .section-content .section-video{
+            height: 343px;
+            margin-top: 55px;
+            .vid-controls .vid-control img{
+                width: 100px;
+                height: 100px;
+            }
+        }
+    }
+
+    .app-section {
+        padding: 60px 0;
+        .section-content {
+            .section-text{
+                p{
+                    font-size: 18px;
+                    line-height: 21px;
+                }
+                h3{
+                    font-size: 24px;
+                    line-height: 28px;
+                }
+            } 
+        }
+    }
+
+    .cards-section{
+        padding: 60px 0;
+        .section-content .section-cards{
+            margin-top: 100px;
+
+            .row{
+                column-gap: 36px;
+            }
+            .section-card-con{
+                width: calc(33.33% - 24px);
+
+                &._1,&._3{
+                    margin-top: 64px;
+                }
+                .section-card{
+                    border-radius: 24px;
+                    height: 372px;
+                    margin-bottom: 36px;
+                    &::before{
+                        height: 12px;
+                        border-radius: 0 0 15px 15px;
+                    }
+                    .card-text{
+                        padding: 15px 12px;
+                        h3{
+                            font-size: 16px;
+                            line-height: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+    footer{
+        background: $bgLightClr;
+        .section-content{
+            h3{
+                font-size: 20px;
+                line-height: 24px;
+            }
+            .app-dnld-btns{
+                margin-bottom: 100px;
+                .app-dnld-btn{
+                    width: 130px;
+                }
+            }
+            .copyrights{
+                padding: 14px 0;
+                a{
+                    font-size: 14px;
+                    font-weight: 18px;
+                }
+            }
+        }
+    }
+}
