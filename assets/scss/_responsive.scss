@@ -274,7 +274,7 @@
     .button-primary{
         height: 61px;
         padding: 0 40px;
-        font-size: 18px;
+        font-size: 14px;
         line-height: 24px;
         &:hover{
             color: $primaryTextClr;
@@ -288,7 +288,16 @@
             background: url(../img/4_HeaderMobile_414X560_RGB.png);
             background-size: cover;
             background-repeat: no-repeat;
+            nav .social-icon{
+                margin-left: 12px;
+            }
+            .section-content .section-text{
+                top: 60%;
 
+                .header-btn{
+                    margin-top: 50px;
+                }
+            }
 
         }
     }
@@ -301,6 +310,9 @@
         .section-content .section-video{
             height: 343px;
             margin-top: 55px;
+            .vid-controls .vid-control{
+                opacity: 1;
+            }
             .vid-controls .vid-control img{
                 width: 100px;
                 height: 100px;
@@ -309,8 +321,11 @@
     }
 
     .app-section {
-        padding: 60px 0;
+        padding: 60px 0 33px;
         .section-content {
+            .section-img{
+                height:  58.9vw;
+            }
             .section-text{
                 p{
                     font-size: 18px;
@@ -325,9 +340,9 @@
     }
 
     .cards-section{
-        padding: 30px 20px;
+        padding: 50px 20px 30px;
         .section-content .section-cards{
-            margin-top: 100px;
+            margin-top: 50px;
 
             .row{
                 column-gap: 10px;

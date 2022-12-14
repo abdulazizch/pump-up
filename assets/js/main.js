@@ -1,8 +1,12 @@
 $(".vid-control").click(function(e){
     $(".vid-control").toggleClass("active")
     $(".about-vid").trigger('play')
+    if(window.innerWidth < 482){
+        $(".vid-control").css({'opacity': '0'})
+    }
     $(".pause-btn").click(function(){
         $(".about-vid").trigger('pause')
+        $(".vid-control").css({'opacity': '1'})
     })
 })
 
@@ -20,4 +24,8 @@ $(document).ready(function(){
 
     video.appendChild(source);
     video.load();
+})
+
+$(".scroll-btn").click(function(){
+    window.scrollTo(0, window.innerHeight + 50);
 })
